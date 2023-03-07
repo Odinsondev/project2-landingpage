@@ -1,0 +1,55 @@
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+/*huvitav et auto margin oli 8*/
+
+header {
+    display: flex;
+}
+
+.empty {
+    background-color: #1F2937;
+    border: 1px solid red;
+    flex: 1;
+    align-self: stretch;
+}
+
+.content1 {
+    background-color: #1F2937;
+    border: 1px solid red;
+    flex: 10;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-top,
+ul {
+    display: flex;
+}
+
+ul {
+    gap: 5px;
+    list-style: none;
+}
+
+.content2 {
+    height: 200px;
+    background-color: aqua;
+}
+
+.content3 {
+    height: 200px;
+    background-color: blue;
+}
+
+.content4 {
+    height: 200px;
+    background-color: bisque;
+}
