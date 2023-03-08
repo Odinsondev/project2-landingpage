@@ -20,23 +20,62 @@ header {
 .content1 {
     background-color: #1F2937;
     border: 1px solid red;
-    flex: 10;
+    flex: 4;
 }
 
-.hero {
+.text1 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    margin: 5px 0;
+}
+
+.text2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 18px 0;
 }
 
 .header-top,
 ul {
     display: flex;
+    justify-content: space-between;
 }
 
 ul {
-    gap: 5px;
+    gap: 20px;
     list-style: none;
+    margin: 24px 0;
+}
+
+a,
+.text3 {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.header-bottom-left,
+.header-bottom-right {
+    flex: 1;
+}
+
+.header-bottom-right {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.placeholder {
+    margin: 10px;
+    border: 1px solid red;
+    flex: 1;
+    background-color: #e5e7eb78;
 }
 
 .content2 {
